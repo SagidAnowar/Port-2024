@@ -2,11 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import Portfolio from "./App";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("portfolio"));
 root.render(
   <React.StrictMode>
-    <Portfolio />
+    <BrowserRouter>
+      <Portfolio />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
