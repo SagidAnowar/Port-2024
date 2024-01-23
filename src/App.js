@@ -9,13 +9,13 @@ function Portfolio() {
   return (
     <>
       <Nav />
-      <main>
+      {/* <main>
         <Hero />
         <About />
         <Project />
         <Social />
       </main>
-      <Footer />
+      <Footer /> */}
     </>
   );
 }
