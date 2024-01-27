@@ -1,23 +1,24 @@
 import React from 'react'
+import { Link } from "react-router-dom";
 import './nav.scss'
 
 const Nav = () => {
   return (
     <>
         <nav className="nav">
-            <a href="/" className='logo'>
+            <Link to="/" className='logo'>
                 SA
-            </a>
+            </Link>
             
             <ul>
                 <li className="nav-item"> 
-                    <a href="/">HOME</a> </li>
+                    <Link to="/">HOME</Link> </li>
                 <li className="nav-item"> 
-                    <a href="/projects">PROJECTS</a> </li>
+                    <Link to="/projects">PROJECTS</Link> </li>
                 <li className="nav-item"> 
-                    <a href="/skills">SKILLS</a> </li>
+                    <Link to="/skills">SKILLS</Link> </li>
                 <li className="nav-item"> 
-                    <a href="/contact">CONTACT</a> </li>
+                    <Link to="/contact">CONTACT</Link> </li>
             </ul>
         </nav>
         <hr className='divider-line'></hr>

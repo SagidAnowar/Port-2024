@@ -17,32 +17,32 @@ body {
     align-items: center;
     gap: 2rem;
     padding: 0 3rem;
-}
 
-ul {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    gap: 1rem;
-}
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+    }
 
-a {
-    color: #333;
-    text-decoration: none;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    padding: 2rem;
-}
+    a {
+        color: #333;
+        text-decoration: none;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 2rem;
+    }
 
-a.logo{
-    color: #F0CA4D;
-    font-size: 2rem;
-}
+    .logo{
+        color: #F0CA4D;
+        font-size: 2rem;
+    }
 
-.nav li:hover {
-    background-color: #F0CA4D;
+    li:hover {
+        background-color: #F0CA4D;
+    }
 }
 
 .divider-line {
