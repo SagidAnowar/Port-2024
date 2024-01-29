@@ -12,12 +12,12 @@ const Home = () => {
         transition={{ duration: 0.7 }}
       >
   
-        <div className='flex' >
-          <div className="ripple">
-            <div class="title-block">
-              <h1 class="title"> I’m Sagid Anowar and I enjoy building websites </h1>
+        <div className='home-container' >
+         
+            <div className="title-block">
+              <h1 className="title"> I’m Sagid Anowar and I enjoy building websites </h1>
             </div>
-          </div>
+      
         </div>
 
         <CustomButton route={"/projects"}>GO TO PORTFOLIO</CustomButton>

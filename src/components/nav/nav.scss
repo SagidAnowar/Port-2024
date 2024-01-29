@@ -1,16 +1,9 @@
-* {
-    box-sizing: border-box;
+.active {
+    background-color: #F0CA4D;
+    border-radius: 2rem;
 }
 
-body {
-    margin: 0;
-}
-
-.container {
-    margin: 1rem;
-    text-align: center;
-}
-.nav {
+nav {
     background-color: transparent;
     display: flex;
     justify-content: space-between;
@@ -19,40 +12,86 @@ body {
     padding: 0 3rem;
 
     ul {
-        padding: 0;
-        margin: 0;
-        list-style: none;
         display: flex;
-        gap: 1rem;
+        list-style: none;
     }
 
     a {
+        display: block;
         color: #333;
         text-decoration: none;
+        border-radius: .5rem;
         height: 100%;
-        display: flex;
-        align-items: center;
         padding: 2rem;
     }
 
     .logo{
         color: #F0CA4D;
         font-size: 2rem;
+        font-weight: bold;
     }
 
     li:hover {
-        background-color: #F0CA4D;
+        background-color: #f0ca4ddb;
+        border-radius: 2rem;
+    }
+
+    .menu {
+        position: absolute;
+        top: 2rem;
+        right: 1rem;
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 2.25rem;
+        height: 2rem;
+
+        span {
+            height: .4rem;
+            width: 100%;
+            background-color: #f0ca4ddb;
+            border-radius: .2rem;
+        }
     }
 }
+
+@media (max-width: 480px) {
+    nav {
+        flex-direction: column;
+        align-items: start;
+        padding: 0 1rem;
+        
+        .menu {
+            display: flex;
+        }
+
+        ul {
+            display: none;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: .25rem;
+        }
+
+        .open {
+            display: flex;
+        }  
+
+        li {
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+
+
+
 
 .divider-line {
     width: 90%;
     height: 1px;
-    border: 0 none;
+    border: 0 1rem;
     background-color:black;
+    
 
-    @media(max-width:750px){
-        display: none;
-    }
 }
 
