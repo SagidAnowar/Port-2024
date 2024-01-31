@@ -3,7 +3,7 @@ import ContainerImage from '../container-image/Container-image';
 import ContainerText from '../container-text/Container-text';
 import CustomButton from '../custom-button/Custom-button';
 
-const ContainerInfo = ({images,button,text,route,home,portfolio,project}) => (
+const ContainerInfo = ({ images,button,text,route,home,portfolio,project }) => (
     <section className={portfolio==="portfolio" ? 'container-info-portfolio':  'container-info'}>
 
         <ContainerImage image={images} home={home} project={project}/>

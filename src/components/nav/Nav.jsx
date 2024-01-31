@@ -1,31 +1,45 @@
-import React, { useState } from 'react'
-import { Link, NavLink } from "react-router-dom";
-import './nav.scss'
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import './nav.styles.jsx';
+// import { ReactComponent as LogoPersonal} from '../../assets/sa_logo.png';
+import HamburgerMenu from '../burger/burger.jsx';
+import { Navbar } from './nav.styles.jsx';
+import { HeaderContainer } from './nav.styles.jsx';
+import { MenuBurger } from './nav.styles.jsx';
+import { LogoContainer } from './nav.styles.jsx';
+import { OptionsContainer } from './nav.styles.jsx';
+
 
 const Nav = () => {
-  const [menuOpen, setMenuOpen] = useState(false)
+    const [hamburgerOpen, setHamburgerOpen]=useState(false);
 
-  return (
-    <>
-        <nav>
-            <Link to="/" className='logo'>
-                SA
-            </Link>
-            <div className='menu' onClick={() => {setMenuOpen(!menuOpen)}}>
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-            <ul className={menuOpen ? 'open' : ''}>
-                <li> <NavLink to="/">HOME</NavLink> </li>
-                <li> <NavLink to="/projects">PROJECTS</NavLink> </li>
-                <li> <NavLink to="/skills">SKILLS</NavLink> </li>
-                <li> <NavLink to="/contact">CONTACT</NavLink></li>
-            </ul>
-        </nav>
+    const toggleHamburger =() => {
+        setHamburgerOpen(!hamburgerOpen);
+    }
+
+    return ( 
         
-    </>
-    )
+    <Navbar>
+     <HeaderContainer>
+         <LogoContainer hamburgerOpen={hamburgerOpen}>
+             <img className="green-logo" src='../src/assets/sa_logo.png' alt='logo' />     
+         </LogoContainer>
+         <MenuBurger onClick={toggleHamburger}>
+         <HamburgerMenu hamburgerOpen={hamburgerOpen}/>
+         </MenuBurger>
+         <OptionsContainer>
+             <NavLink className ='options' to='/'> HOME </NavLink>
+             <NavLink className ='options' to='/projects'> PROJECTS </NavLink>
+             <NavLink className ='options' to='/skills'> SKILLS </NavLink>
+             <NavLink className ='options' to='/contact'> CONTACT ME </NavLink>
+
+         </OptionsContainer>
+        
+
+     </HeaderContainer>
+
+ </Navbar>
+ )
 }
 
 export default Nav
