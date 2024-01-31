@@ -1,7 +1,13 @@
 .home-container {
     display: flex;
-    width: 100vw;
-    margin: 0 auto;
-    margin-top: 2.5rem;
-    align-items: flex-end;
+}
+
+.title-block {
+    margin: 5rem 0;
+    padding: 0 3rem;
+    
+}
+
+.title {
+    text-align: center;
 }

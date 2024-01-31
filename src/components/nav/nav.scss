@@ -75,10 +75,14 @@ nav {
         .open {
             display: flex;
         }  
-
+        
         li {
             width: 100%;
             text-align: center;
+
+            a {
+                padding: 1rem;
+            }
         }
     }
 }
@@ -86,12 +90,4 @@ nav {
 
 
 
-.divider-line {
-    width: 90%;
-    height: 1px;
-    border: 0 1rem;
-    background-color:black;
-    
-
-}
 

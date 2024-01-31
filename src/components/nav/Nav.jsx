@@ -15,7 +15,6 @@ const Nav = () => {
                 <span></span>
                 <span></span>
                 <span></span>
-                <span></span>
             </div>
             <ul className={menuOpen ? 'open' : ''}>
                 <li> <NavLink to="/">HOME</NavLink> </li>

@@ -1,5 +1,5 @@
 import './home.scss'
-import CustomButton from "../../components/custom-button/custom-button";
+import CustomButton from "../../components/custom-button/Custom-button";
 import { motion } from 'framer-motion'
 
 const Home = () => {
@@ -14,13 +14,14 @@ const Home = () => {
   
         <div className='home-container' >
          
-            <div className="title-block">
-              <h1 className="title"> I’m Sagid Anowar and I enjoy building websites </h1>
-            </div>
-      
+          <div className="title-block">
+            <h1 className="title"> I’m Sagid Anowar and I enjoy building websites </h1>
+          </div>
+          {/* <CustomButton route={"/projects"}>GO TO PORTFOLIO</CustomButton> */}
+
         </div>
 
-        <CustomButton route={"/projects"}>GO TO PORTFOLIO</CustomButton>
+        
 
       </motion.div>
     </>
