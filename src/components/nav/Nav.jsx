@@ -21,7 +21,7 @@ const Nav = () => {
         
     <Navbar>
      <HeaderContainer>
-         <LogoContainer hamburgerOpen={hamburgerOpen}>
+         <LogoContainer >
             <LogoPersonal className="green-logo" />    
            
          </LogoContainer>

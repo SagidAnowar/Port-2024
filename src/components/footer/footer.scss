@@ -1,0 +1,109 @@
+footer {
+    width: 100%;
+    background-color: #707070;
+    @media(min-width:735px){
+        
+        align-self: self-end;
+    }
+    
+    .footer-container {
+    max-width: 79rem;
+    height: 70px;
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    justify-content:space-between;
+    flex-direction: row;
+
+    @media(max-width:750px){
+        display:grid;
+        justify-content: center;
+        height: 100%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+        .footer-logo-choice-container {
+        width: 40%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        align-items: center;
+        white-space: nowrap;
+
+        @media(max-width:750px){
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            grid-template-columns: none;
+            
+        }
+
+            
+        .choice-logo{
+                
+                justify-self: center;
+                height: 60px;
+                width: 5rem;
+                g{
+                    fill: white;
+                }
+                line{
+                    stroke: white;
+                }
+            }
+            
+            .choice{
+                padding: 10px 15px;
+                cursor: pointer;
+                color: white;
+                font-size: 0.8rem;
+                letter-spacing: 2px;
+                line-height: 1.4rem;
+                font-family: 'Public Sans', sans-serif;
+                font-weight: 400;
+                transition: color 0.4s ease; 
+
+                &:hover {
+                    color: #5FB4A2;
+                    transition: color 0.4s ease; 
+                  }
+
+
+            }
+        }
+
+        .socials{           
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: 10px;
+
+        @media(max-width:750px){
+            margin:0 auto;
+            width: auto;
+            padding-right: 0;
+        }
+
+            .social{
+                padding: 10px 10px;
+                cursor: pointer;
+                
+
+                    svg{
+                        filter: none !important;
+                        fill: white;
+                        
+                        &:hover path{
+                        
+                        fill:#5FB4A2!important;
+                        transition: fill 0.5s ease; 
+                        }
+                    
+                        path{transition: fill 0.5s ease;}
+                    }
+                    
+                
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import "./App.scss";
+import "./App.css";
 import { GlobalStyles } from "./global.styles";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
@@ -44,7 +44,7 @@ function Portfolio() {
               <Route exact path="/contact" element={<Contact />} />
             </Routes>
           </AnimatePresence>
-          {/* <Footer /> */}
+          <Footer />
         </div>
       </div>
     </>

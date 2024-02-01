@@ -46,7 +46,6 @@ margin-left: 4.5%;
 
 svg{
     height:50px;
-    
 
     @media(max-width:400px){
         height:40px;

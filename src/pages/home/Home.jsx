@@ -17,8 +17,8 @@ const Home = ({images,button,text}) => (
         <div className='flex' >
         <div className="ripple">
         <MovingImage/>
-        <div class="title-block">
-        <h1 class="title"> I’m Sagid Anowar and I enjoy building websites </h1>
+        <div className="title-block">
+            <h1 className="title"> I’m Sagid Anowar and I enjoy building websites </h1>
         </div>
         </div>
 
