@@ -28,7 +28,7 @@ width: 70px;
 z-index:2;
 margin-left: 4.5%;
 
-.green-logo{
+.green-logo {
     height:85px;
     margin-top: 10px;
     width: -webkit-fill-available;
@@ -40,6 +40,8 @@ margin-left: 4.5%;
     @media(max-width:425px){
         height:55px; 
     }
+
+    
 }
 
 svg{

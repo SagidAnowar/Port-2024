@@ -19,6 +19,7 @@ function Portfolio() {
     "VIEW PROJECT",
   ]);
   const [description_text, setDescription_text] = useState(TEXT_DATA);
+
   return (
     <>
       <div className="App">

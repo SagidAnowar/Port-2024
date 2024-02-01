@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import './nav.styles.jsx';
-// import { ReactComponent as LogoPersonal} from '../../assets/sa_logo.png';
+import { ReactComponent as LogoPersonal} from '../../assets/sa-logo.svg';
 import HamburgerMenu from '../burger/burger.jsx';
 import { Navbar } from './nav.styles.jsx';
 import { HeaderContainer } from './nav.styles.jsx';
@@ -22,7 +22,8 @@ const Nav = () => {
     <Navbar>
      <HeaderContainer>
          <LogoContainer hamburgerOpen={hamburgerOpen}>
-             <img className="green-logo" src='../src/assets/sa_logo.png' alt='logo' />     
+            <LogoPersonal className="green-logo" />    
+           
          </LogoContainer>
          <MenuBurger onClick={toggleHamburger}>
          <HamburgerMenu hamburgerOpen={hamburgerOpen}/>
