@@ -3,7 +3,7 @@ import { GlobalStyles } from "./global.styles";
 import Nav from "./components/nav/Nav";
 import Footer from "./components/footer/Footer";
 import Projects from "./pages/Projects";
-import Skills from "./pages/Skills";
+import Skills from "./pages/skills/Skills";
 import Contact from "./pages/Contact";
 import Home from "./pages/home/Home";
 import { Route, Routes } from "react-router-dom";
@@ -17,6 +17,7 @@ function Portfolio() {
   const [button_text, setButton_text] = useState([
     "GO TO PORTFOLIO",
     "VIEW PROJECT",
+    "VIEW RESUME",
   ]);
   const [description_text, setDescription_text] = useState(TEXT_DATA);
 
