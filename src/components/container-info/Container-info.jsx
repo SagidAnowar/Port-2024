@@ -12,8 +12,10 @@ const ContainerInfo = ({ images,button,text,route,home,portfolio,project }) => (
             <ContainerText text={text}/>
             
             <div className="portfolio-button">
-                <CustomButton  route={route[0]}>{button}</CustomButton>
+                <CustomButton  route={route}>{button}</CustomButton>
+                <CustomButton  route={route}>{button}</CustomButton>
             </div>
+        
         </div>
         
     </section>
