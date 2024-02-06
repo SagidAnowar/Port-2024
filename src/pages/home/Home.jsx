@@ -4,7 +4,7 @@ import ContainerInfo from '../../components/container-info/Container-info'
 import CallToAction from '../../components/call-to-action/Call-to-action'
 import { ReactComponent as MovingImage} from '../../assets/moving-image.svg';
 
-const Home = ({images,button,text}) => (
+const Home = ({ button, text }) => (
 
     <motion.div layout={"position"}
     initial={{ opacity: 0, x: -200 }}
@@ -24,7 +24,7 @@ const Home = ({images,button,text}) => (
 
         </div>
         
-        <ContainerInfo home={'home'} route={'/projects'} images={images.about_me.src} button={button[0]} text={text.about_me}/> 
+        <ContainerInfo home={'home'} route={'/projects'} button={button[0]} text={text.about_me}/> 
         
         <CallToAction />
     </div>

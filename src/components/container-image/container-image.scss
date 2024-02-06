@@ -1,12 +1,16 @@
 .container-image-home{
+   display: flex;
+   flex-wrap: wrap;
     width: 35rem;
     height: 40rem;
     background-size: cover;
     z-index: 20;
     position: relative;
-    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://morning-aroma.s3.us-east-2.amazonaws.com/IMG-20220117-WA0023.jpg");
 
-    @media (max-width: 1200px){
+   @media (max-width: 1200px){
    background-position: center center;
    width: 40%;
    
@@ -22,10 +26,10 @@
 .container-image-portfolio-openai_article_summarizer{
     width: 39.75rem;           
     height: 31.25rem;
-    
     background-size: contain;
     background-repeat: no-repeat;
     background-image: url("https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_-min.png");
+    
     
     @media (max-width: 1100px){
         background-position: center center;

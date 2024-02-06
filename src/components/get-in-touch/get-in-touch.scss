@@ -32,9 +32,9 @@
     }
     .get-in-touch-socials{
         
-        a{
-        padding-right: 1rem;
-
+        a {
+            padding-right: 1rem;
+            align-items: center;
             svg{
 
                 &:hover path{
@@ -45,24 +45,25 @@
 
                 path{transition: fill 0.5s ease;}
             }
-            
         }
-        
-    
 
-    .get-in-touch-text {
-    font-size: 1rem;
-    line-height: 2rem;
-    letter-spacing: 0;
-    opacity: .8;
-    margin-bottom: 2rem;
+        .get-in-touch-text {
+        font-size: 1rem;
+        line-height: 2rem;
+        letter-spacing: 0;
+        opacity: .8;
+        margin-bottom: 2rem;
 
-    @media(max-width: 335px) {
-        font-size: 0.8rem;
+            @media(max-width: 335px) {
+                font-size: 0.8rem;
+            }
+        }
+
+        .media-links {
+           
+        }
+
     }
-    }
-
-}
 
     
 }

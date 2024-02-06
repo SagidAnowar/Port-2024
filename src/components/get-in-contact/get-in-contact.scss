@@ -22,6 +22,7 @@
     }
 
     .get-in-contact-form{
+      
       form{
           display: grid;
 
@@ -32,7 +33,7 @@
             padding: .9rem 1rem;
             background-color: #E5E5E6;
             border:none;
-            
+
             &:focus {
                 transition: outline 0.5s ease;
                 outline: 1px solid #5FB4A2;  
@@ -67,6 +68,7 @@
           }
       }
       .button-container-message {
+        place-self: center;
         border-radius: 0px;
         border-style: solid;
         border-color: black;
@@ -80,6 +82,10 @@
         letter-spacing: 2px;
         width: fit-content;
         background-color: #203A4C;
+
+          @media(min-width:750px) {
+            place-self: unset;
+          }
     
         &:hover {
             transition: background-color 0.5s ease;
@@ -90,4 +96,6 @@
         }
     }
     }
+
+ 
 }

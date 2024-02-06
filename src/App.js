@@ -11,11 +11,9 @@ import OpenAiArticleSummarizer from "./pages/openai-article-summarizer/Openai-ar
 import YoutubeV2 from "./pages/youtube-2.0/Youtube-2.0";
 import { Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import IMAGE_DATA from "./image-data";
 import TEXT_DATA from "./text-data";
 
 function Portfolio() {
-  const images = IMAGE_DATA;
   const button_text = ["GO TO PORTFOLIO", "VIEW PROJECT"];
   const description_text = TEXT_DATA;
 
@@ -30,23 +28,13 @@ function Portfolio() {
               <Route
                 exact
                 path="/"
-                element={
-                  <Home
-                    images={images}
-                    button={button_text}
-                    text={description_text}
-                  />
-                }
+                element={<Home button={button_text} text={description_text} />}
               />
               <Route
                 exact
                 path="/projects"
                 element={
-                  <Projects
-                    button={button_text}
-                    text={description_text}
-                    images={images}
-                  />
+                  <Projects button={button_text} text={description_text} />
                 }
               />
               <Route

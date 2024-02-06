@@ -8,7 +8,7 @@ import { Twirl as Humburger } from 'hamburger-react'
 const HamburgerMenu = (hamburgerOpen ) => {
   
     return (
-    <Hamburger >
+    <Hamburger>
     <Humburger
     color= {hamburgerOpen.hamburgerOpen ? "#FAFAFA" : "#33323D"}
     duration={0.5} 

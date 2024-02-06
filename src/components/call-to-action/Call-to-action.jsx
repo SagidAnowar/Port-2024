@@ -7,9 +7,9 @@ const CallToAction = () => (
         <div className="action-line-container">
             <hr className='action-line'/>
         </div>
-    <CustomButton route={'/contact'}> CONTACT ME </CustomButton>
-     
- </div>
+
+        <CustomButton route={'/contact'}> CONTACT ME </CustomButton>
+    </div>
 );
 
 export default CallToAction;

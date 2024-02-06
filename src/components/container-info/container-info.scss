@@ -1,19 +1,21 @@
 .container-info {
-    display: flex;
+    display: block;
     margin: 0 auto;
     width: 90%;
     font-size: 1.7rem;
     justify-content: space-between;
-
+    z-index: 10;
 
     .portfolio-button{
     font-size: 0.9rem;
     margin-bottom: 5rem;
+    place-self: center;
     }
 
-    @media (max-width: 750px){
-        display: block;
-        z-index: 10;
+    @media (min-width: 750px){
+        display: flex;
+        z-index: 0;
+        place-self: unset;
         } 
 
    
@@ -61,7 +63,7 @@
 }
 
 .container-info-portfolio{
-    display: flex;
+    display: block;
     margin: 0 auto;
     width: 90%;
     margin-top: 5rem;
@@ -78,13 +80,15 @@
     .portfolio-button{
         font-size: 0.9rem;
         margin-bottom: 5rem;
+        place-self: center;
+        
+            @media (min-width: 750px){
+                display: flex;
+                place-self: unset;
+                } 
         }
     
-        @media(max-width: 575px) {
-            display: block;
-    
-            };
-    
+
         .text-button-container{
             text-align: left;
             width: 30%;
