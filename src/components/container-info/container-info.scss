@@ -7,9 +7,20 @@
     z-index: 10;
 
         .portfolio-button{
-        display: flex;
-        font-size: 0.9rem;
-        margin-bottom: 5rem;
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            font-size: 0.9rem;
+            margin-bottom: 5rem;
+            justify-content: center;
+
+            :last-child{
+                display: none;
+            }
+
+            @media (min-width:750px) {
+                flex-wrap: unset;
+            }
         }
 
         @media (min-width: 750px){
@@ -31,6 +42,8 @@
             justify-content: space-between;
             margin-top: 3rem;
             height: 40rem;
+
+    
             
             @media (min-width: 750px){
                 margin-top: 0rem;
@@ -54,11 +67,11 @@
             height: 40rem;
 
 
-                @media (min-width: 750px){
-                    margin-top: 0;
-                    width: 30%;
-                    height: 0;
-                    } 
+            @media (min-width: 750px){
+                margin-top: 0;
+                width: 30%;
+                height: 0;
+                } 
 
         }
 }
@@ -72,16 +85,25 @@
 
         @media (min-width: 750px){
             display: flex;
+            gap: 2rem;
             } 
 
     .portfolio-button{
         font-size: 0.9rem;
         margin-bottom: 5rem;
-        
-            :last-child{
-                display: none;
-            }
+        place-self: center;
+
+        :first-child{
+            display: none;
         }
+        :nth-child(2){
+            display: none;
+        }
+
+        @media (min-width:750px) {
+            place-self: unset;
+        }
+    }
             
     .text-button-container{
         text-align: left;
@@ -118,7 +140,7 @@
         flex-direction: column;
         justify-content: space-between;
         margin-top: 3rem;
-            
+
             @media (min-width: 1100px){
                 margin-top: 0;
                 width: 30%;

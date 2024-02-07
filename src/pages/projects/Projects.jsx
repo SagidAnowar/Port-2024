@@ -12,8 +12,8 @@ const Projects = ({ button,text }) => (
     transition={{ duration: 0.7 }}
     >
     
-    <ContainerInfo  portfolio={"portfolio"} project={"openai_article_summarizer"} route={'/openai_article_summarizer'} button={button[1]} text={text.openai_article_summarizer} />
-    <ContainerInfo  portfolio={"portfolio"} project={"youtube_V2"} route={'/youtube_V2'} button={button[1]} text={text.youtube_V2} />
+    <ContainerInfo  portfolio={"portfolio"} project={"openai_article_summarizer"} route={'/openai_article_summarizer'} button={button} text={text.openai_article_summarizer} />
+    <ContainerInfo  portfolio={"portfolio"} project={"youtube_V2"} route={'/youtube_V2'} button={button} text={text.youtube_V2} />
     <CallToAction/>
     
     </Motion.div>

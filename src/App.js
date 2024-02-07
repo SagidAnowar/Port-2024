@@ -7,6 +7,7 @@ import Skills from "./pages/skills/Skills";
 import Contact from "./pages/contact/Contact";
 import ThankYou from "./pages/thank-you/Thank-you";
 import Home from "./pages/home/Home";
+import Resume from "./pages/resume/Resume";
 import OpenAiArticleSummarizer from "./pages/openai-article-summarizer/Openai-article-summarizer";
 import YoutubeV2 from "./pages/youtube-2.0/Youtube-2.0";
 import { Route, Routes } from "react-router-dom";
@@ -14,7 +15,7 @@ import { AnimatePresence } from "framer-motion";
 import TEXT_DATA from "./text-data";
 
 function Portfolio() {
-  const button_text = ["GO TO PORTFOLIO", "VIEW PROJECT"];
+  const button_text = ["GO TO PORTFOLIO", "VIEW RESUME", "VIEW PROJECT"];
   const description_text = TEXT_DATA;
 
   return (
@@ -30,6 +31,7 @@ function Portfolio() {
                 path="/"
                 element={<Home button={button_text} text={description_text} />}
               />
+              <Route exact path="/resume" element={<Resume />} />
               <Route
                 exact
                 path="/projects"

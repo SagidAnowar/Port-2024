@@ -10,12 +10,12 @@ const ContainerInfo = ({ images,button,text,route,home,portfolio,project }) => (
 
         <div className={home==="home" ? 'text-button-container': 'text-button-portfolio'}>
             <ContainerText text={text}/>
-            
+           
             <div className="portfolio-button">
-                <CustomButton  route={route}>{button}</CustomButton>
-                <CustomButton  route={route}>{button}</CustomButton>
+                <CustomButton  route={route[0]}>{button[0]}</CustomButton>
+                <CustomButton  route={route[1]}>{button[1]}</CustomButton>
+                <CustomButton  route={route}>{button[2]}</CustomButton>
             </div>
-        
         </div>
         
     </section>

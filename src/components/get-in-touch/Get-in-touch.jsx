@@ -11,7 +11,7 @@ const GetInTouch = () => (
             I’m currently looking for a new role and am open to a wide range of opportunities. 
             I am open to new technologies and ways to code, whatever tool is needed for the job.
             I’m a hard-working and positive person who will always approach each task with a sense of purpose and attention to detail.
-            Creativity, discipline, perseverance  and hard work are my values.
+            Creativity, discipline, perseverance  and hard work are my core values.
             Please do feel free to check out my online profiles below and get in touch using the form.
             </p>
             
