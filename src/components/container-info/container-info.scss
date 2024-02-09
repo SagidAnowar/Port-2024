@@ -8,7 +8,7 @@
         
         @media (min-width: 750px){
             display: flex;
-            z-index: 0;
+            align-items: center;
             } 
 
         .portfolio-button{
@@ -34,15 +34,17 @@
             border-block-color: #DCDCDE;
             border-top: 1px solid;
             border-bottom: 1px solid;
-            z-index: 10;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
             margin-top: 3rem;
-                
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            
+
                 @media (min-width: 750px){
                     width: 50%;
                     margin-top: 0;
+                    
                 }
 
                 @media (min-width: 1200px){
@@ -50,15 +52,13 @@
                 }
 
             .profile-pic{
-                height: 12rem;
-                margin-top: 2rem;
-                margin-bottom: 3rem;
-                
+                width: 225px;
+                height: 300px;
+                margin: 1rem 0;                
                 padding: 0;
-                background-size: contain;
-                background-repeat: no-repeat;
-                background-image: url('../../assets/portfolio-pic.png');
-            
+                background: url('../../assets/portfolio-pic.png') no-repeat;
+                background-size: 100%;
+                box-shadow: 0 1rem 3rem #0000002d
             }
         }
     

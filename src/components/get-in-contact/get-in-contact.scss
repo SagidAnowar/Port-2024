@@ -1,5 +1,5 @@
 .get-in-contact-container{
-    display: grid;
+    display: block;
     grid-template-columns: 1fr 1fr;
     width: 90%;
     margin: 0 auto;
@@ -7,37 +7,38 @@
     margin-top: 3rem;
     margin-bottom: 5rem;
 
-    @media(max-width: 1024px) {
-      display: block;
-  }
-
-    .get-in-contact-title{
-        margin:0;
-        font-size: 3rem;
-        color: #33323D;
-        margin-bottom: 2rem;
-        @media(max-width: 335px) {
-          font-size: 2rem;
+      @media(min-width: 1024px) {
+        display: grid;
       }
-    }
+
+      .get-in-contact-title{
+          margin:0;
+          font-size: 2rem;
+          color: #33323D;
+          margin-bottom: 2rem;
+
+            @media(min-width: 335px) {
+              font-size: 3rem;
+            }
+      }
 
     .get-in-contact-form{
       
       form{
-          display: grid;
+        display: grid;
 
-          input{
-            margin-top: 1rem;
-            margin-bottom: 1rem;
-            font-family: 'Public Sans', sans-serif;
-            padding: .9rem 1rem;
-            background-color: #E5E5E6;
-            border:none;
+        input{
+          margin-top: 1rem;
+          margin-bottom: 1rem;
+          font-family: 'Public Sans', sans-serif;
+          padding: .9rem 1rem;
+          background-color: #E5E5E6;
+          border:none;
 
-            &:focus {
-                transition: outline 0.5s ease;
-                outline: 1px solid #5FB4A2;  
-               }
+          &:focus {
+              transition: outline 0.5s ease;
+              outline: 1px solid #5FB4A2;  
+              }
           }
 
           label{
@@ -47,26 +48,28 @@
             font-family: 'Public Sans',sans-serif;
             font-weight: 600;
           }
-          textarea{
-              height: 6rem;
-              margin-top: 1rem;
-              margin-bottom: 3rem;
-              font-family: 'Public Sans', sans-serif;
-              padding: .9rem 1rem;
-              background-color: #E5E5E6;
-              border:none;
-              resize: none;
 
-              &:focus {
-                transition: outline 0.5s ease;
-                outline: 1px solid #5FB4A2;  
-               }
+          textarea{
+            height: 6rem;
+            margin-top: 1rem;
+            margin-bottom: 3rem;
+            font-family: 'Public Sans', sans-serif;
+            padding: .9rem 1rem;
+            background-color: #E5E5E6;
+            border:none;
+            resize: none;
+
+            &:focus {
+              transition: outline 0.5s ease;
+              outline: 1px solid #5FB4A2;  
+              }
           }
           
           .send-message{
-          background-color: #203A4C !important;
+            background-color: #203A4C !important;
           }
       }
+
       .button-container-message {
         place-self: center;
         border-radius: 0px;
@@ -92,10 +95,7 @@
             background-color: #fafafa;
             color: #203A4C;
             cursor: pointer;
-            
         }
+      }
     }
-    }
-
- 
 }

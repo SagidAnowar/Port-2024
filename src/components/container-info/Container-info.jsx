@@ -9,7 +9,7 @@ const ContainerInfo = ({ button, text, route, home, portfolio, project }) => (
         <ContainerImage home={home} project={project}/>
 
         <div className={home==='home' ? 'text-button-container': 'text-button-portfolio'}>
-            
+            <div className='profile-pic'></div>
             
             <ContainerText text={text}/>
            
