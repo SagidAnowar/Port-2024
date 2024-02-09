@@ -1,6 +1,12 @@
-const TEXT_DATA = {
-  openai_article_summarizer: {
+const PROJECT_DATA = {
+  about_me: {
     id: 1,
+    title: "About Me",
+    word: `I am a web developer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I love learning new things and meeting new people.`,
+  },
+
+  openai_article_summarizer: {
+    id: 2,
     title: "Morning Aroma",
     word: "This project required me to build a fully responsive e-commerce website with the designs I was inspired from. I used React JS as well as redux for state management. I added the back-end with Node Js and Express and the Stripe API for payment. I also used MongoDB for my database, to store user information.",
     project_background_text:
@@ -26,12 +32,6 @@ const TEXT_DATA = {
       "https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_shop+copy-min.png",
     image_3:
       "https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_shop-min.png",
-  },
-
-  about_me: {
-    id: 2,
-    title: "About Me",
-    word: `I am a web developer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I love learning new things and meeting new people.`,
   },
 
   youtube_V2: {
@@ -62,4 +62,4 @@ const TEXT_DATA = {
   },
 };
 
-export default TEXT_DATA;
+export default PROJECT_DATA;

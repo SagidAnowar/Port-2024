@@ -12,11 +12,11 @@ import OpenAiArticleSummarizer from "./pages/openai-article-summarizer/Openai-ar
 import YoutubeV2 from "./pages/youtube-2.0/Youtube-2.0";
 import { Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
-import TEXT_DATA from "./text-data";
+import PROJECT_DATA from "./project-data";
 
 function Portfolio() {
   const button_text = ["GO TO PORTFOLIO", "VIEW RESUME", "VIEW PROJECT"];
-  const description_text = TEXT_DATA;
+  const project_data = PROJECT_DATA;
 
   return (
     <>
@@ -29,15 +29,13 @@ function Portfolio() {
               <Route
                 exact
                 path="/"
-                element={<Home button={button_text} text={description_text} />}
+                element={<Home button={button_text} text={project_data} />}
               />
               <Route exact path="/resume" element={<Resume />} />
               <Route
                 exact
                 path="/projects"
-                element={
-                  <Projects button={button_text} text={description_text} />
-                }
+                element={<Projects button={button_text} text={project_data} />}
               />
               <Route
                 exact
