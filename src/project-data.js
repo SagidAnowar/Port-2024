@@ -37,7 +37,7 @@ const PROJECT_DATA = {
   youtube_V2: {
     id: 3,
     title: "Youtube 2.0",
-    word: `Fully responsive Youtube web app. All made from scratch, design included. I used React with Sass for styling. I opted to use Typescript in order to debug easier. The Muse API was used to retrive the data displayed. `,
+    word: `Fully responsive Youtube clone. Just like the original users will be able to watch, search, and save their favorite videos! I used React with Material UI for styling. The Rapid API was used to retrive the Youtube data displayed.`,
     project_background_text:
       "This was a job search web app, coming from the idea of serching for a job that can suit your needs. Mutiple filter options making the job search easier. I used the Muse API with get requests in order to display the information. The context API was use to put everything in one file and distribute the necessary states. This was my first introduction to React Hooks. The use of hooks allowed me redefine the usage of react and it's state architecture. ",
     project_resume_description:
