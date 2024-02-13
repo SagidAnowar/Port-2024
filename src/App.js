@@ -13,6 +13,7 @@ import YoutubeV2 from "./pages/youtube-2.0/Youtube-2.0";
 import { Route, Routes } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import PROJECT_DATA from "./project-data";
+import ScrollToTop from "./components/scroll-to-top/Scroll-to-top";
 
 function Portfolio() {
   const button_text = ["GO TO PORTFOLIO", "VIEW RESUME", "VIEW PROJECT"];
@@ -25,6 +26,7 @@ function Portfolio() {
           <GlobalStyles />
           <Nav />
           <AnimatePresence mode="wait" initial={false}>
+            <ScrollToTop />
             <Routes>
               <Route
                 exact

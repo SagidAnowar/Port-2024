@@ -9,6 +9,7 @@ import { ReactComponent as ReactIcon} from '../../assets/react.svg';
 import { ReactComponent as Redux} from '../../assets/redux.svg';
 import { ReactComponent as Git} from '../../assets/git-icon.svg';
 import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
+import { ReactComponent as MaterialUI} from '../../assets/material-ui.svg';
 
   const iconTypes = {
     javascript: Javascript,
@@ -20,7 +21,8 @@ import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
     react: ReactIcon,
     redux: Redux,
     git: Git,
-    typescript: TypeScript 
+    typescript: TypeScript,
+    materialUI: MaterialUI,
   };
 
   const IconComponent = (name) => {

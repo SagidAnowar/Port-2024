@@ -5,32 +5,28 @@
     margin-top: 2.5rem;
     align-items: flex-end;
 
-
     .ripple{
+      width: 100%;
+      height: 600px;
 
-        width: 100%;
-        height: 600px;
         svg {
-           
-            // height: 100vh;
             display: block;
             left: 0;
             top: -130px;
             height: 140%;
             position: relative;
             width: 100%;
-            
-            // background-color: #333;
           }
           
-          .title-block {
-            margin: 0 auto;
-            bottom: 41rem;
-            position: relative;
+        .title-block {
+          margin: 0 auto;
+          bottom: 47rem;
+          position: relative;
 
-            @media(max-width:550px){
-              bottom: 47rem;
-            }
+          @media(min-width:550px){
+            bottom: 41rem;
+          }
+
             .title {
               @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@500;600&display=swap');
               font-family: 'Times New Roman', Times, serif;
@@ -41,15 +37,14 @@
               font-weight: 500;
               text-shadow: 0 1rem 3rem rgb(173, 230, 214);
               letter-spacing: 1px;
-              font-size: 3.5rem;
+              font-size: 3rem;
               margin:0 auto;
 
-
-              @media(max-width:400px){
-                font-size: 3rem;
+              @media(min-width:400px){
+                font-size: 3.5rem;
               }
             }
-          }
+        }
           
           
           #top {
@@ -168,72 +163,65 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 35%;
-    padding-right: 5rem;
+    width: 90%;
+    padding-right: 20px;
 
-    @media(max-width: 1150px) {
-        width:400px ;
+    @media(min-width: 575px) {
+        width:300px ;
         padding-right:70px ;
         }   
 
-        @media(max-width: 800px) {
-            width:300px ;
-            padding-right:20px ;
+        @media(min-width: 800px) {
+            width:400px ;
+            padding-right:5rem ;
             }
 
-            @media(max-width: 575px) {
-                width: 90%;
+            @media(min-width: 1150px) {
+                width: 35%;
                 };
             
     .presentation-phrase{
         text-align: start;
-        font-size: 3.4rem;
+        font-size: 2.5rem;
         letter-spacing: -1.2px;
         color: #33323D;
 
 
 
-    @media(max-width: 1400px) {
-        font-size: 2.7rem;
+        @media(min-width: 575px) {
+            font-size: 1.7rem;
         }   
 
-        @media(max-width: 1150px) {
-            font-size: 2.2rem;
+            @media(min-width: 800px) {
+                font-size: 2.2rem;
             }
-            
-            @media(max-width: 800px) {
-                font-size: 1.7rem;
+                
+                @media(min-width: 1150px) {
+                    font-size: 2.7rem;
                 }   
 
-                @media(max-width: 575px) {
-                    font-size: 2.5rem;
-                    
+                    @media(min-width: 1400px) {
+                        font-size: 3.4rem;
                     }
     }
 
     .homepage-button{
-        width: 40%;
+        width: 45%;
         display: flex;
         align-items: center;
         border: none;
         padding: 0;
         background-color: none;
+        margin-bottom: 2rem;
 
-        @media(max-width: 575px) {
-            width: 45%;
-            };
-
-            @media(max-width: 360px) {
-                margin-bottom: 2rem;
-                };
+        @media(min-width: 375px) {
+            width: 40%;
+            margin-bottom: unset;
+        }
     
-
-
-       
-
         .arrow-down{
-            padding: 0.5rem;
-            height: 49.65px;
+            padding: 1.4rem;
+            height: 35px;
             display: flex;
             align-items: center;
             background-color: #1C3444;
@@ -241,18 +229,15 @@
             padding-right: 1rem;
             transition: background-color 0.4s ease;
 
-            @media(max-width: 1150px) {
-                height: 35px;
+            @media(min-width: 575px) {
+                height: 49.65px;
                 padding-left: 0.5rem;
                 padding-right: 0.5rem;
-                }
+            }
                 
-                @media(max-width: 575px) {
-                    padding: 1.4rem;
-                    
-                    };
-             
-
+                @media(min-width: 1150px) {
+                    padding: 0.5rem;
+                };
         }
 
         .about-me-button{
@@ -261,27 +246,26 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 50px;
+            height: 35.4px;
             width: 100%;
-            padding: 0 6rem;
+            padding: 1.4rem;
             font-family: 'Public Sans',sans-serif;
             white-space: nowrap;
             font-weight: 500;
             letter-spacing: 1.4px;
             transition: background-color 0.4s ease;
 
-            @media(max-width: 1150px) {
-                height: 35.4px;
-                padding: 1rem;
-                padding-left: 20px;
-                padding-right: 20px;
-                font-size: 0.7rem;
-                }
+            @media(min-width: 575px) {
+              height: 50px;
+              padding: 1rem;
+              padding-left: 20px;
+              padding-right: 20px;
+              font-size: 0.7rem;
+            }
                 
-                @media(max-width: 575px) {
-                    padding: 1.4rem;
-                    
-                    };
+                @media(min-width: 1150px) {
+                  padding: 0 6rem;
+                };
 
         
         }

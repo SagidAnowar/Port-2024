@@ -38,26 +38,25 @@ const PROJECT_DATA = {
     title: "Youtube 2.0",
     word: `Fully responsive Youtube clone. Just like the original users will be able to watch, search, and save their favorite videos! I used React with Material UI for styling. The Rapid API was used to retrive the Youtube data displayed.`,
     project_background_text:
-      "This was a job search web app, coming from the idea of serching for a job that can suit your needs. Mutiple filter options making the job search easier. I used the Muse API with get requests in order to display the information. The context API was use to put everything in one file and distribute the necessary states. This was my first introduction to React Hooks. The use of hooks allowed me redefine the usage of react and it's state architecture. ",
+      "Designed to be a clone of the popular video sharing platform YouTube, it allows users to upload, share, and watch videos.  easy for anyone to navigate. You can search for videos by keyword or browse through categories such as music, sports, movies, and more. You can also create playlists of your favorite videos and share them with others.",
     project_resume_description:
-      "This project required me to build a fully responsive job search web app, display all the information needed for each job post.I used React, Sass and with Typescript. A heavy focus on javascript and API calls was necessary.",
+      "This project required me to build a fully responsive Youtube clone web app, and display all the information needed for each video and channel. I used React, Sass and Material UI for styling. A heavy focus on javascript and API calls was necessary.",
     project_resume_tech: [
       "javascript",
-      "typescript",
       "react",
       "sass",
+      "materialUI",
       "responsive",
     ],
     project_resume_website_link:
-      "https://master.d2ifz8wtm80ke3.amplifyapp.com/",
-    project_resume_code_link:
-      "https://github.com/RusssianMusketeer/Job-Search-App",
+      "https://scintillating-cheesecake-f2c93e.netlify.app",
+    project_resume_code_link: "https://github.com/SagidAnowar/Youtube-App",
     image_1:
-      "https://github.com/SagidAnowar/Port-2024/blob/3d0987316827f1a6464069b09d74ee22738313a8/src/assets/youtubeapp-pic.png?raw=true",
+      "https://github.com/SagidAnowar/Port-2024/blob/97367bf8d50b395dc4be6a3c794ae7a747515a90/src/assets/youtube_1.png?raw=true",
     image_2:
-      "https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/Jobs-image+png-list.png",
+      "https://github.com/SagidAnowar/Port-2024/blob/97367bf8d50b395dc4be6a3c794ae7a747515a90/src/assets/youtube_2.png?raw=true",
     image_3:
-      "https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/master_optimized.d2ifz8wtm80ke3.amplifyapp.com_search-copy-2.png",
+      "https://github.com/SagidAnowar/Port-2024/blob/97367bf8d50b395dc4be6a3c794ae7a747515a90/src/assets/youtube_3.png?raw=true",
   },
 };
 
