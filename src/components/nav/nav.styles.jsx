@@ -29,28 +29,27 @@ z-index:2;
 margin-left: 4.5%;
 
 .green-logo {
-    height:85px;
+    height:55px;
     margin-top: 10px;
     width: -webkit-fill-available;
 
-    @media(max-width:525px){
+    @media(min-width:425px){
         height:65px; 
     }
 
-    @media(max-width:425px){
-        height:55px; 
+    @media(min-width:525px){
+        height:85px; 
     }
 
     
 }
 
 svg{
-    height:50px;
+    height:40px;
 
-    @media(max-width:400px){
-        height:40px;
+    @media(min-width:400px){
+        height:50px;
     }
-
 }
 
 path{
@@ -66,19 +65,19 @@ line{
 `;
 
 export const OptionsContainer=styled.div`
-width: 50%;
+width: 70%;
 height: 100%;
-display: flex;
+display: none;
 align-items: center;
 justify-content: flex-end;
 margin-right: 4.5%;
 
-@media(max-width:750px){
-    width: 70%;
+@media(min-width:600px){
+    display:flex
 }
 
-@media(max-width:600px){
-    display:none;
+@media(min-width:750px){
+    width: 70%;
 }
 
 a{
