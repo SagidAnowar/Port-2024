@@ -37,8 +37,16 @@ function Portfolio() {
                 path="/projects"
                 element={<Projects button={button_text} text={project_data} />}
               />
-              <Route exact path="/morning-aroma" element={<MorningAroma />} />
-              <Route exact path="/youtube-V2" element={<YoutubeV2 />} />
+              <Route
+                exact
+                path="/morning-aroma"
+                element={<MorningAroma text={PROJECT_DATA.morning_aroma} />}
+              />
+              <Route
+                exact
+                path="/youtube-V2"
+                element={<YoutubeV2 text={PROJECT_DATA.youtube_V2} />}
+              />
               <Route exact path="/skills" element={<Skills />} />
               <Route exact path="/contact" element={<Contact />} />
               <Route exact path="/thank-you" element={<ThankYou />} />

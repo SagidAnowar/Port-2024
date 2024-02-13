@@ -1,14 +1,15 @@
-// import './portfolio-container.styles.scss';
-// import ProjectResume from '../project-resume/project-resume.component';
-// import ProjectBackground from '../project-background/project-background.component';
+import './project-details.scss';
+import ProjectResume from '../project-resume/Project-resume';
+import ProjectBackground from '../project-background/Project-background';
 
-// const PortfolioContainer =({text}) => (
-//     <div className="portfolio-container">
-//         <ProjectResume text={text}/>
-//         <ProjectBackground text={text}/>
+const PortfolioDetails =({ text }) => (
+    <div className="portfolio-details">
 
-//     </div>
+        <ProjectResume text={text}/>
+        <ProjectBackground text={text}/>
 
-// )
+    </div>
 
-// export default PortfolioContainer;
+)
+
+export default PortfolioDetails;

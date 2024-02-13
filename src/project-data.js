@@ -24,8 +24,7 @@ const PROJECT_DATA = {
       "responsive",
     ],
     project_resume_website_link: "https://elegant-hopper-860fd7.netlify.app/",
-    project_resume_code_link:
-      "https://github.com/RusssianMusketeer/Morning-Aroma",
+    project_resume_code_link: "",
     image_1:
       "https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_shop+copy+2-min.png",
     image_2:
@@ -54,7 +53,7 @@ const PROJECT_DATA = {
     project_resume_code_link:
       "https://github.com/RusssianMusketeer/Job-Search-App",
     image_1:
-      "https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/master_optimized.d2ifz8wtm80ke3.amplifyapp.com_search.png",
+      "https://github.com/SagidAnowar/Port-2024/blob/3d0987316827f1a6464069b09d74ee22738313a8/src/assets/youtubeapp-pic.png?raw=true",
     image_2:
       "https://photos-webapp-portfolio.s3.us-east-2.amazonaws.com/Jobs-image+png-list.png",
     image_3:
