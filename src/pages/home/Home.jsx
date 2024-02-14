@@ -3,7 +3,7 @@ import { motion as Motion} from 'framer-motion'
 import ContainerInfo from '../../components/container-info/Container-info'
 import CallToAction from '../../components/call-to-action/Call-to-action'
 import { ReactComponent as MovingImage} from '../../assets/moving-image.svg';
-import CustomButton from '../../components/custom-button/Custom-button';
+import CustomButton from '../../components/custom-button/Custom-button.jsx';
 import PDF from '../../assets/resume.pdf'
 
 const Home = ({ button, text }) => (
