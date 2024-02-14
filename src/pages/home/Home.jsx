@@ -3,6 +3,8 @@ import { motion as Motion} from 'framer-motion'
 import ContainerInfo from '../../components/container-info/Container-info'
 import CallToAction from '../../components/call-to-action/Call-to-action'
 import { ReactComponent as MovingImage} from '../../assets/moving-image.svg';
+import CustomButton from '../../components/custom-button/Custom-button';
+import PDF from '../../assets/resume.pdf'
 
 const Home = ({ button, text }) => (
 
@@ -24,7 +26,7 @@ const Home = ({ button, text }) => (
             </div>
         </div>
        
-        <ContainerInfo home={'home'} route={['/projects', '/resume']} button={button} text={text.about_me}/> 
+        <ContainerInfo home={'home'} route={'/projects'} button={button} text={text.about_me} resumeButton={<><CustomButton  route='/projects'>VIEW PROJECTS</CustomButton> <CustomButton route={PDF} isNativeAnchor>VIEW RESUME</CustomButton></>}/> 
         
         <CallToAction />
     </div>
