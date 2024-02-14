@@ -10,7 +10,7 @@ import Home from "./pages/home/Home";
 import Resume from "./pages/resume/Resume";
 import MorningAroma from "./pages/morning-aroma/Morning-Aroma";
 import YoutubeV2 from "./pages/youtube-2.0/Youtube-2.0";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import PROJECT_DATA from "./project-data";
 import ScrollToTop from "./components/scroll-to-top/Scroll-to-top";
@@ -18,6 +18,7 @@ import ScrollToTop from "./components/scroll-to-top/Scroll-to-top";
 function Portfolio() {
   const button_text = ["GO TO PORTFOLIO", "VIEW RESUME", "VIEW PROJECT"];
   const project_data = PROJECT_DATA;
+  const location = useLocation();
 
   return (
     <>
@@ -25,9 +26,9 @@ function Portfolio() {
         <div className="max-width">
           <GlobalStyles />
           <Nav />
-          <AnimatePresence mode="wait" initial={false}>
+          <AnimatePresence>
             <ScrollToTop />
-            <Routes>
+            <Routes key={location.pathname} location={location}>
               <Route
                 exact
                 path="/"

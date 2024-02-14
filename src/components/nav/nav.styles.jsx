@@ -53,12 +53,12 @@ svg{
 }
 
 path{
-    fill: ${ props => props.hamburgerOpen ? '#FAFAFA' : '#33323D'};
+    fill: ${ props => props.open ? '#FAFAFA' : '#33323D'};
     transition: fill 0.5s ease-in-out;
     
 }
 line{
-    stroke:${ props => props.hamburgerOpen ? '#FAFAFA' : '#33323D'};
+    stroke:${ props => props.open ? '#FAFAFA' : '#33323D'};
     transition: fill 0.5s ease-in-out;
 }
 

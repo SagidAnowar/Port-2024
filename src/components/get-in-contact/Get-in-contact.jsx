@@ -8,13 +8,13 @@ const GetInContact = ()=> (
         <div className="get-in-contact-form">
             <form className='get-in-touch-text' action="https://formsubmit.co/sagidanowar@gmail.com" method="POST">
                 <input type="hidden" name="_captcha" value="false"/>
-                <label for="name">Name</label>
+                <label htmlFor="name">Name</label>
                 <input name="name" type="text" placeholder="Sagid Anowar" id="name" required/>
-                <label for="email">Email Address</label>
+                <label htmlFor="email">Email Address</label>
                 <input type="email" placeholder="email@example.com" required id="email" name="email"/>
-                <label for="fname">Message</label>
-                <textarea name="text" className="message" type="text" placeholder="How can I help ?"></textarea>
-                <button className="button-container-message" message={true} type="submit">Send Message</button>
+                <label htmlFor="name">Message</label>
+                <textarea name="text" type="text" placeholder="How can I help ?"></textarea>
+                <button className="button-container-message" message={true.toString()} type="submit">Send Message</button>
                 <input type="hidden" name="_next" value="https://www.sagidanowar.com/thank-you"></input>
             </form>   
         </div>

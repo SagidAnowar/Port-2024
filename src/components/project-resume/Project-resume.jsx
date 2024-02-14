@@ -38,7 +38,7 @@ const ProjectResume = ({text}) => (
         <p className="description">{text.project_resume_description}</p>
         <div className="skill-description">
             {text.project_resume_tech.map((element)=>(
-                <div className="tech">
+                <div className="tech" key={element.toString()}>
                 {IconComponent(element)}
                 </div>
             ))}

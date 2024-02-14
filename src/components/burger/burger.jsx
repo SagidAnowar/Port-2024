@@ -5,20 +5,20 @@ import { HamburgerContainer } from './burger.styles.jsx';
 import { Twirl as Humburger } from 'hamburger-react'
 
 
-const HamburgerMenu = (hamburgerOpen ) => {
+const HamburgerMenu = ( open ) => {
   
     return (
     <Hamburger>
     <Humburger
-    color= {hamburgerOpen.hamburgerOpen ? "#FAFAFA" : "#33323D"}
+    color= {open.open ? "#FAFAFA" : "#33323D"}
     duration={0.5} 
-    toggled={hamburgerOpen.hamburgerOpen}  toggle={hamburgerOpen.setHamburgerOpen}
+    toggled= {open.open}  toggle={open.setOpen}
     />
-    <HamburgerContainer hamburgerOpen={hamburgerOpen}>
-             <NavLink onClick={!hamburgerOpen.hamburgerOpen} className ='burger-top'  to='/'> HOME </NavLink>
-             <NavLink onClick={!hamburgerOpen.hamburgerOpen} className ='burger' to='/projects'> PROJECTS </NavLink>
-             <NavLink onClick={!hamburgerOpen.hamburgerOpen} className ='burger' to='/skills'> SKILLS </NavLink>
-             <NavLink onClick={!hamburgerOpen.hamburgerOpen} className ='burger-bottom' to='/contact'> CONTACT ME </NavLink>
+    <HamburgerContainer open={open}>
+             <NavLink onClick={!open.open} className ='burger-top'  to='/'> HOME </NavLink>
+             <NavLink onClick={!open.open} className ='burger' to='/projects'> PROJECTS </NavLink>
+             <NavLink onClick={!open.open} className ='burger' to='/skills'> SKILLS </NavLink>
+             <NavLink onClick={!open.open} className ='burger-bottom' to='/contact'> CONTACT ME </NavLink>
     </HamburgerContainer>
     </Hamburger>
     

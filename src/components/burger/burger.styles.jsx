@@ -34,14 +34,13 @@ export const Hamburger=styled.div`
     right:0;
     bottom:0;
     max-width: 30rem;
-    
     top: 0;
     right: 1rem;
     text-align: center;
     z-index: 1;
     display: flex;
     transition: max-height .5s ease-out;
-    ${ props => props.hamburgerOpen.hamburgerOpen ? 'max-height:15.8rem' : 'max-height:0'};
+    ${ props => props.open.open ? 'max-height:15.8rem' : 'max-height:0'};
     
     background-color: #33323D;
     height: fit-content;

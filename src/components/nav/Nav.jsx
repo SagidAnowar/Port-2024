@@ -11,22 +11,22 @@ import { OptionsContainer } from './nav.styles.jsx';
 
 
 const Nav = () => {
-    const [hamburgerOpen, setHamburgerOpen]=useState(false);
+    const [open, setOpen]= useState(false);
 
     const toggleHamburger =() => {
-        setHamburgerOpen(!hamburgerOpen);
+        setOpen(!open);
     }
 
     return ( 
         
     <Navbar>
      <HeaderContainer>
-         <LogoContainer hamburgerOpen={hamburgerOpen}>
+         <LogoContainer open={open}>
             <LogoPersonal className="green-logo" />    
            
          </LogoContainer>
          <MenuBurger onClick={toggleHamburger}>
-         <HamburgerMenu hamburgerOpen={hamburgerOpen}/>
+         <HamburgerMenu open={open}/>
          </MenuBurger>
          <OptionsContainer>
              <NavLink className ='options' to='/'> HOME </NavLink>

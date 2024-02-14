@@ -3,10 +3,7 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyles = createGlobalStyle`
 
 body{
-    @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
     font-family: 'EB Garamond', serif;
-  
-  
 }
 p{
     font-family: 'Public Sans', sans-serif;
