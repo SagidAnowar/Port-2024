@@ -1,7 +1,7 @@
 import './container-info.scss';
 import ContainerImage from '../container-image/Container-image';
 import ContainerText from '../container-text/Container-text';
-import CustomButton from '../custom-button/Custom-button';
+import CustomButton from '../custom-button/custom-button';
 
 const ContainerInfo = ({ button, text, route, home, portfolio, project, resumeButton }) => (
     <section className={portfolio==="portfolio" ? 'container-info-portfolio':  'container-info'}>

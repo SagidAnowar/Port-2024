@@ -1,7 +1,7 @@
 import UseAnimations from "react-useanimations";
 import mail from 'react-useanimations/lib/mail';
 import './thank-you.scss';
-import CustomButton from "../../components/custom-button/Custom-button.jsx";
+import CustomButton from "../../components/custom-button/custom-button";
 import { motion as Motion} from 'framer-motion';
 
 

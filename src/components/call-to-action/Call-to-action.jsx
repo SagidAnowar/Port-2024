@@ -1,5 +1,5 @@
 import './call-to-action.scss';
-import CustomButton from '../custom-button/Custom-button';
+import CustomButton from '../custom-button/custom-button';
 
 const CallToAction = () => (
     <div className='action-container'>
