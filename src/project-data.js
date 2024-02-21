@@ -2,7 +2,7 @@ const PROJECT_DATA = {
   about_me: {
     id: 1,
     title: "About Me",
-    word: `I am a web developer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I love learning new things and meeting new people.`,
+    word: `I am a software engineer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I love learning new things and meeting new people.`,
   },
 
   morning_aroma: {
@@ -36,7 +36,7 @@ const PROJECT_DATA = {
   youtube_V2: {
     id: 3,
     title: "Youtube 2.0",
-    word: `Fully responsive Youtube clone. Just like the original users will be able to watch, search, and save their favorite videos! I used React with Material UI for styling. The Rapid API was used to retrive the Youtube data displayed.`,
+    word: `Fully responsive Youtube clone. Just like the original users will be able to watch, search, and save their favorite videos! I used React with Material UI for styling. Rapid API was used to retrive the Youtube data displayed.`,
     project_background_text:
       "Designed to be a clone of the popular video sharing platform YouTube, it allows users to upload, share, and watch videos.  easy for anyone to navigate. You can search for videos by keyword or browse through categories such as music, sports, movies, and more. You can also create playlists of your favorite videos and share them with others.",
     project_resume_description:

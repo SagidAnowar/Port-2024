@@ -1,4 +1,11 @@
-.h1-title{
+.about-space{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.about-title{
+    text-align: center;
     color: #33323D;
     font-size: 2rem;
     line-height: 1rem;
@@ -6,18 +13,16 @@
     font-weight: 700;
     white-space: nowrap;
     width: 100%;
+    text-shadow: 0 1rem 1.75rem rgb(173, 230, 214);
     
         @media (min-width:350px){
             font-size: 3rem;
         }
-
-        @media (min-width:750px) {
-            text-align: left;
-        }
 }
 
 .about-text{
-    font-size: 0.65rem;
+    text-align: center;
+    font-size: 0.85rem;
     line-height: 2rem;
     letter-spacing: 0;
     opacity: .8;
