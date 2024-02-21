@@ -15,7 +15,7 @@ import PROJECT_DATA from "./project-data";
 import ScrollToTop from "./components/scroll-to-top/Scroll-to-top";
 
 function Portfolio() {
-  const button_text = ["GO TO PROJECTS", "VIEW PROJECT"];
+  const button_text = ["GO TO PROJECTS", "LEARN MORE"];
   const project_data = PROJECT_DATA;
   const location = useLocation();
 
