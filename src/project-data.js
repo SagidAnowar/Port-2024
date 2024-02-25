@@ -2,7 +2,7 @@ const PROJECT_DATA = {
   about_me: {
     id: 1,
     title: "About Me",
-    word: `I am a software engineer looking to spend time with other talented developers. My hobbies are efficient software design and my focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I love React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I am always interested in learning new things and meeting new people!`,
+    word: `I am a software engineer looking to spend more time with other talented developers. My hobbies are efficient software design and my focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I love React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I am always interested in learning new things and meeting new people!`,
   },
 
   morning_aroma: {
