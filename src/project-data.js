@@ -2,7 +2,7 @@ const PROJECT_DATA = {
   about_me: {
     id: 1,
     title: "About Me",
-    word: `I am a software engineer looking for a new role in an exciting company. My focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I mostly use React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I love learning new things and meeting new people.`,
+    word: `I am a software engineer looking to spend time with other talented developers. My hobbies are efficient software design and my focus is on writing modern and clean React, with the best sass practices as well writing functional Javascript. I love React however, I try to always learn new technologies and adapt to whatever tools are necessary for the task. I am always interested in learning new things and meeting new people!`,
   },
 
   morning_aroma: {
@@ -23,8 +23,8 @@ const PROJECT_DATA = {
       "mongodb",
       "responsive",
     ],
-    project_resume_website_link: "https://elegant-hopper-860fd7.netlify.app/",
-    project_resume_code_link: "",
+    project_resume_website_link: "",
+    project_resume_code_link: "https://github.com/SagidAnowar/Coffee-Store",
     image_1:
       "https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_shop+copy+2-min.png",
     image_2:
