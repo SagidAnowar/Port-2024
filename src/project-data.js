@@ -23,7 +23,8 @@ const PROJECT_DATA = {
       "mongodb",
       "responsive",
     ],
-    project_resume_website_link: "",
+    project_resume_website_link:
+      "https://main--quiet-arithmetic-a1aa8d.netlify.app/",
     project_resume_code_link: "https://github.com/SagidAnowar/Coffee-Store",
     image_1:
       "https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_shop+copy+2-min.png",
