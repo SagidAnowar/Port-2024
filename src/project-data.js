@@ -34,30 +34,25 @@ const PROJECT_DATA = {
       "https://morning-aroma.s3.us-east-2.amazonaws.com/elegant-hopper-860fd7.netlify.app_shop-min.png",
   },
 
-  youtube_V2: {
+  openAIArticleSummarizer: {
     id: 3,
-    title: "Youtube 2.0",
-    word: `Fully responsive Youtube clone. Just like the original users will be able to watch, search, and save their favorite videos! I used React with Material UI for styling. Rapid API was used to retrive the Youtube data displayed.`,
+    title: "OpenAI Article Summarizer",
+    word: `A modern responsive application that allows users to instantly extract and summarize articles using OpenAI's ChatGPT 4.0! Just simply copy & paste a url and let AI do the rest of the work! For convenience The app will save submitted articles to quickly access previous links.`,
     project_background_text:
-      "Designed to be a clone of the popular video sharing platform YouTube, it allows users to upload, share, and watch videos.  easy for anyone to navigate. You can search for videos by keyword or browse through categories such as music, sports, movies, and more. You can also create playlists of your favorite videos and share them with others.",
+      "Designed to help users quickly understamd articles online. Easy for anyone to navigate and use, the app also saves user-submitted articles for quick access to previous links",
     project_resume_description:
-      "This project required me to build a fully responsive Youtube clone web app, and display all the information needed for each video and channel. I used React, Sass and Material UI for styling. A heavy focus on javascript and API calls was necessary.",
-    project_resume_tech: [
-      "javascript",
-      "react",
-      "sass",
-      "materialUI",
-      "responsive",
-    ],
+      "This project required me to build a responsive app to summarize articles using OpenAI's ChatGPT 4.0. The app saves submitted links using local storage for easy access later on. I used React, Redux and Tailwind CSS for styling. A heavy focus on javascript and API calls was necessary.",
+    project_resume_tech: ["javascript", "redux", "responsive", "tailwindCSS"],
     project_resume_website_link:
-      "https://scintillating-cheesecake-f2c93e.netlify.app",
-    project_resume_code_link: "https://github.com/SagidAnowar/Youtube-App",
+      "https://bright-travesseiro-20c7bd.netlify.app/",
+    project_resume_code_link:
+      "https://github.com/SagidAnowar/OpenAI-Article-Summarizer",
     image_1:
-      "https://github.com/SagidAnowar/Port-2024/blob/97367bf8d50b395dc4be6a3c794ae7a747515a90/src/assets/youtube_1.png?raw=true",
+      "https://github.com/SagidAnowar/Port-2024/blob/main/src/assets/openai-pic1.png",
     image_2:
-      "https://github.com/SagidAnowar/Port-2024/blob/97367bf8d50b395dc4be6a3c794ae7a747515a90/src/assets/youtube_2.png?raw=true",
+      "https://github.com/SagidAnowar/Port-2024/blob/main/src/assets/openai-pic2.png",
     image_3:
-      "https://github.com/SagidAnowar/Port-2024/blob/97367bf8d50b395dc4be6a3c794ae7a747515a90/src/assets/youtube_3.png?raw=true",
+      "https://github.com/SagidAnowar/Port-2024/blob/main/src/assets/openai-pic3.png",
   },
 };
 

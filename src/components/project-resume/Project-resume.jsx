@@ -10,6 +10,7 @@ import { ReactComponent as Redux} from '../../assets/redux.svg';
 import { ReactComponent as Git} from '../../assets/git-icon.svg';
 import { ReactComponent as TypeScript} from '../../assets/typescript.svg';
 import { ReactComponent as MaterialUI} from '../../assets/material-ui.svg';
+import { ReactComponent as TailwindCSS} from '../../assets/tailwind-css.svg';
 
   const iconTypes = {
     javascript: Javascript,
@@ -23,6 +24,7 @@ import { ReactComponent as MaterialUI} from '../../assets/material-ui.svg';
     git: Git,
     typescript: TypeScript,
     materialUI: MaterialUI,
+    tailwindCSS: TailwindCSS,
   };
 
   const IconComponent = (name) => {

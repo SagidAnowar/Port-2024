@@ -21,7 +21,7 @@ const Home = ({ button, text }) => (
                 <MovingImage/>
 
                 <div className="title-block">
-                    <h1 className="title"> I’m Sagid Anowar and I enjoy building websites </h1>
+                    <h1 className="title"> I’m Sagid Anowar and I enjoy building digital experiences </h1>
                 </div>
             </div>
         </div>

@@ -3,7 +3,7 @@ import ProjectDetails from '../../components/project-details/Project-details';
 import CallToAction from '../../components/call-to-action/Call-to-action';
 import { motion as Motion } from 'framer-motion';
 
-const YoutubeV2 = ({ text }) => (
+const OpenAIArticleSummarizer = ({ text }) => (
 
   <Motion.div
   initial={{ opacity: 0, x: -200 }}
@@ -22,4 +22,4 @@ const YoutubeV2 = ({ text }) => (
 
 );
 
-export default YoutubeV2;
+export default OpenAIArticleSummarizer;

@@ -13,7 +13,7 @@ const Projects = ({ button, text }) => (
     >
     
     <ContainerInfo  portfolio={"portfolio"} button={button} project={"morning_aroma"} route={'/morning-aroma'} text={text.morning_aroma} />
-    <ContainerInfo  portfolio={"portfolio"} button={button} project={"youtube_V2"} route={'/youtube-V2'} text={text.youtube_V2} />
+    <ContainerInfo  portfolio={"portfolio"} button={button} project={"openAIArticleSummarizer"} route={'/openAI-article-summarizer'} text={text.openAIArticleSummarizer} />
     <CallToAction/>
     
     </Motion.div>

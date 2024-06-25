@@ -8,15 +8,14 @@
     text-align: center;
     color: #33323D;
     font-size: 2rem;
-    line-height: 1rem;
+    line-height: 2.5rem;
     max-width: 19rem;
     font-weight: 700;
-    white-space: nowrap;
+    white-space: wrap;
     width: 100%;
-    text-shadow: 0 1.5rem 3rem rgb(173, 230, 214);
     
         @media (min-width:350px){
-            font-size: 3rem;
+            font-size: 150%;
         }
 }
 

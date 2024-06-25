@@ -8,7 +8,7 @@ import Contact from "./pages/contact/Contact";
 import ThankYou from "./pages/thank-you/Thank-you";
 import Home from "./pages/home/Home";
 import MorningAroma from "./pages/morning-aroma/Morning-Aroma";
-import YoutubeV2 from "./pages/youtube-2.0/Youtube-2.0";
+import OpenAIArticleSummarizer from "./pages/openAIArticleSummarizer/openAIArticleSummarizer";
 import { Route, Routes, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import PROJECT_DATA from "./project-data";
@@ -45,8 +45,12 @@ function Portfolio() {
               />
               <Route
                 exact
-                path="/youtube-V2"
-                element={<YoutubeV2 text={PROJECT_DATA.youtube_V2} />}
+                path="/openAI-article-summarizer"
+                element={
+                  <OpenAIArticleSummarizer
+                    text={PROJECT_DATA.openAIArticleSummarizer}
+                  />
+                }
               />
               <Route exact path="/skills" element={<Skills />} />
               <Route exact path="/contact" element={<Contact />} />
