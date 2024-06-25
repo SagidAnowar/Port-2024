@@ -48,11 +48,11 @@ const PROJECT_DATA = {
     project_resume_code_link:
       "https://github.com/SagidAnowar/OpenAI-Article-Summarizer",
     image_1:
-      "https://github.com/SagidAnowar/Port-2024/blob/main/src/assets/openai-pic1.png",
+      "https://github.com/SagidAnowar/Port-2024/blob/2cce87ca3edcb45aaf76e068f09681b16528c301/src/assets/openai-pic1.png?raw=true",
     image_2:
-      "https://github.com/SagidAnowar/Port-2024/blob/main/src/assets/openai-pic2.png",
+      "https://github.com/SagidAnowar/Port-2024/blob/2cce87ca3edcb45aaf76e068f09681b16528c301/src/assets/openai-pic2.png?raw=true",
     image_3:
-      "https://github.com/SagidAnowar/Port-2024/blob/main/src/assets/openai-pic3.png",
+      "https://github.com/SagidAnowar/Port-2024/blob/2cce87ca3edcb45aaf76e068f09681b16528c301/src/assets/openai-pic3.png?raw=true",
   },
 };
 
